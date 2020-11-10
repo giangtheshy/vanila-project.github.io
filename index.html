@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <script src="https://kit.fontawesome.com/776bbe23d6.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starter</title>
+</head>
+
+<body>
+    <div class="preloader">
+        <img src="./images/preloader.gif" alt="preloader">
+    </div>
+    <header>
+        <div class="header show-header" id="show-header">
+            <div class="img-logo">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+
+            <ul class="links-list show-links" id="show-links">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="./page/ourmenu.html">OurMenu</a>
+                </li>
+                <li>
+                    <a href="./page/projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <div class="links links-icon">
+                <ul class="icons-list">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fab fa-sketch"></i></a></li>
+                </ul>
+            </div>
+            <div class="toggle-nav">
+                <button id="btn-bar"><i class="fas fa-bars"></i></button>
+                <button class="btn-close" id="btn-close"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <button id="btn-left-bar" class="btn-left-bar"><i class="fas fa-bars"></i></button>
+        <h1>Our Reviews</h1>
+        <div class="underline"></div>
+    </header>
+    <div class="modal">
+        <div class="modal-content">
+            <i class="fas fa-times" id="btn-close-modal"></i>
+            <div class="more-info-profile">
+                <h1 class="modal-content-profile">Profile</h1>
+                <i class="far fa-minus-square" id="less-info"></i>
+                <i class="far fa-plus-square" id="more-info"></i>
+            </div>
+            <div class="desc-profile">
+
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container-img">
+
+            <img src="./images/anna.jpg" alt="anna" id="img">
+            <i class="fas fa-quote-right"></i>
+        </div>
+
+        <div class="name">
+            Anna Johnson
+        </div>
+        <div class="job">
+            WEB DESIGNER
+        </div>
+        <article id="desc">
+            Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice
+            franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.
+        </article>
+        <div class="icon-btn">
+            <i class="fas fa-chevron-left" id="prev"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
+        </div>
+
+        <button class="random-btn" id="random">Surprise Me</button>
+    </main>
+    <video muted autoplay loop class="video-container">
+        <source src="./medias/video-1038130864.mp4" type="video/mp4">
+    </video>
+    <button class="switch-btn">
+        <span id="play-video">Play</span>
+        <span id="pause-video">Pause</span>
+        <span id="slide-switch" class="slide-switch"></span>
+    </button>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
